@@ -139,9 +139,9 @@ modernize:
 	clang-modernize -p build/modernize -include=common,logging,soccer
 
 apidocs:
-	doxygen doc/Doxyfile
-	cp doc/doxygen.css api_docs/html/
-	@echo "\n=> Open up 'api_docs/html/index.html' in a browser to view a local copy of the documentation"
+	doxygen docs/Doxyfile
+	#cp doc/doxygen.css api_docs/html/
+	@echo "\n=> Open up 'docs/api_docs/html/index.html' in a browser to view a local copy of the documentation"
 
 STYLIZE_DIFFBASE ?= master
 STYLE_EXCLUDE_DIRS=build \

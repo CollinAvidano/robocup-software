@@ -3,7 +3,7 @@
 
 The 'soccer' program is responsible for receiving data from the vision and referee computers and using the information to strategically command the robots on the field (or in the simulator).
 
-![Screenshot of the 'soccer' program](soccer.png "Soccer")
+![Screenshot of the 'soccer' program](../images/soccer.png "Soccer")
 
 
 ## Running with the simulator
@@ -38,7 +38,7 @@ To run without using the AI/vision system, click the 'Manual' dropdown in the up
 
 Here's a diagram of the button layout for gamepad joystick control:
 
-![Joystick](joystick-layout.png "Joystick Controls")
+![Joystick](../images/joystick-layout.png "Joystick Controls")
 
 In addition to the Logitech Gamepad joystick, you can also use the SpaceNavigator 3d mouse.  In order to do so, you have to have the spacenavd userspace driver daemon running.  Do this with:
 
@@ -55,4 +55,4 @@ See the docs for SpaceNavJoystick for more info and button layouts.
 
 The soccer program has a feature that allows graphing any of the numeric values in the 'Tree' tab.  Simply right-click on a value field, then click 'New Chart' or 'Add to ____' and a graph view will be shown at the bottom of the window.
 
-![Graphing](soccer-graphing.png "Graphing")
+![Graphing](../images/soccer-graphing.png "Graphing")
