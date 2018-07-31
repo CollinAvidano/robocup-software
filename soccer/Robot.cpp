@@ -22,9 +22,10 @@ using namespace Geometry2d;
 using Planning::MotionInstant;
 
 /** thresholds for avoidance of opponents - either a normal (large) or an
- * approach (small)*/
+ * approach (small)
+ */
 const float Opp_Avoid_Small = Robot_Radius - 0.03;
-/** threshold for avoiding the ball*/
+/** threshold for avoiding the ball */
 const float Ball_Avoid_Small = 2.0 * Ball_Radius;
 /**
  * When verbose is true, a lot of extra debug info is printed
